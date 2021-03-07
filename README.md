@@ -6,9 +6,9 @@ The purpose of the project is to create a mobile registration screen for users t
 The design was provided by Bahd Coder, I developed it making sure it looked as close to the design given in Figma as possible.
 
 ## Screenshots
-![Evon Mobile Reg screenshot](./images/mobile-reg1-blog.PNG)
-![Evon Mobile Reg screenshot](./images/mobile-reg2-blog.PNG)
-![Evon Mobile Reg screenshot](./images/mobile-reg3-blog.PNG)
+![Evon Mobile Reg screenshot](/mobile-reg1-blog.PNG)
+![Evon Mobile Reg screenshot](/mobile-reg2-blog.PNG)
+![Evon Mobile Reg screenshot](/mobile-reg3-blog.PNG)
 
 
 ## Technologies
