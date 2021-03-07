@@ -1,0 +1,289 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+section {
+    width: 411px;
+    height: 823px;
+    background-color: #fff;
+    
+}
+
+img {
+    text-align: center;
+}
+
+#logo-index {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    padding: 0;
+    
+}
+
+
+.title {
+    text-transform: uppercase;
+    color: #3E476A;
+    font-family: Comfortaa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 0.25em;
+}
+
+.desc {
+    font-family: SF Pro Display;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #878FAD;
+    margin: 0 3em ;
+    margin-top: 2em;
+    margin-bottom: 6em;
+    
+
+
+}
+
+.form-index {
+    text-align: center;
+    margin-bottom: 2em;
+    
+}
+
+button {
+    width: 315px;
+    padding: 1em;
+    border-radius: 3px;
+    border: 0;
+    margin: 0 4em;
+}
+
+.sign-up-btn {
+    background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+    color: #fff;
+
+
+}
+
+.login-btn {
+    color: #3D8BF2;
+    background: #fff;
+    border: 1px solid #3D8BF2;
+
+
+
+}
+
+.footer-text {
+    font-family: SF Pro Display;
+    font-size: 16px;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-align: center;
+    color: #878FAD;
+    margin-top: 4.5em
+
+}
+
+.login {
+  margin-top: 9em;  
+}
+
+.signup {
+    margin-top: 6em;
+}
+
+a {
+    text-decoration: none;
+    color: #3D8BF2;
+    cursor: pointer;
+}
+
+/***Sign Up ***/
+
+#logo-signup {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding: 0;
+    margin-bottom: 4em;
+    
+}
+
+.form-signup {
+    text-align: center;
+}
+
+.form-signup > p > input {
+    width: 285px;
+    background-color: #E5E5E5;
+    padding: 1em;
+    border-radius: 3px;
+    border: 0;
+}
+
+#sign-up {
+    width: 315px;
+    background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+    color: #fff;
+}
+
+::placeholder {
+    color: #A6ACC3;
+    
+}
+
+
+
+.field-icon {
+    float: right;
+    margin-top: -45px;
+    margin-right: 70px;
+    position: relative;
+    cursor: pointer;
+    color: #A6ACC3 ;
+    
+    
+}
+
+.divide-text {
+    color:  #878FAD;
+    margin-top: 3em;
+   
+    
+}
+
+.divide-text::before {
+    content: "";
+    display: inline-block;
+    width: 140px;
+    height: 1px;
+    
+    
+    background: #878FAD;
+    
+}
+
+.divide-text::after {
+    content: "";
+    display: inline-block;
+    width: 140px;
+    height: 1px;
+    
+    background: #878FAD;
+    text-align: center;
+}
+
+
+.fb-btn {
+    
+    background: #4A6EA8;
+    color: #fff;
+    padding: 0.75em;
+    padding-left: 0;
+    border-radius: 3px;
+    padding-right: 5.4em;
+    text-decoration: none;
+    
+
+}
+
+.fa-facebook {
+    background: #395185;
+    padding: 0.75em;
+    padding-right: 1.3em;
+    margin-right: 2em;
+    border-radius: 3px;
+    
+   
+
+}
+
+.google-btn {
+    
+    background: #fff;
+    color:#878FAD;
+    padding: 0.75em;
+    padding-left: 0;
+    border-radius: 3px;
+    padding-right: 6em;
+    text-decoration: none;
+    border: 1px solid;
+
+}
+
+.google-icon {
+    padding: 0.75em;
+    text-align: center;
+    margin-right: 2.2em;
+    border-right: 1px solid #878FAD;
+    background: #fff;
+    
+}
+
+
+
+/*.fa-google {
+    background: #fff;
+    color: #1976D2;
+    padding: 0.75em;
+    margin-right: 2.2em;
+    border-right: 1px solid #878FAD;
+    margin-bottom: 2em;
+} */
+
+.policy {
+    font-family: SF Pro Display;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-align: center;
+    color:  #878FAD;
+    margin: 0 3em;
+    margin-top: 3em;
+
+}
+
+
+/*** Log in ***/
+
+#logo-login {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #59A1FF 19.89%, #3D67F2 100%);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 0;
+    margin-bottom: 4em;
+    
+}
+
+
